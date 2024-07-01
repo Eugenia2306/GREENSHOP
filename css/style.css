@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.modal{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 52px;
+    background: #fff;
+
+}
+.title{
+text-align: center;
+}
+.title a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.title a:last-of-type{
+    color: #46a358;
+}
+.title span{
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin: 0 11px;
+}
+input{
+    border: solid 1px black;
+    padding: 40px 300px;
+}
+.input{
+    text-align: center;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: #3d3d3d;
+}
+.text{
+    text-align: center;
+}
+#user_name, #user_email, #user_password, #user_password_confirm{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #a5a5a5;
+}
+.social{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 123%;
+    text-align: center;
+    color: #727272;
+}
+.social{
+    text-align: center;
+}
+.button{
+    background: #46a358;
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+.button{
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+}
+div{
+    text-align: center;
+}
+button{
+    margin: 0 auto;
+    display: block;
+}

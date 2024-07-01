@@ -6,39 +6,39 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-
-<div style="">
-   <a href="#">
-       <img src="images/Frame%201.svg" alt="">
-   </a>
+<div class="modal">
+    <a href="#"><img src="images/Frame%201.svg" alt=""></a></div>
+<div class="title" >
+    <a href="#" title="Login">Login</a>
+    <span>|</span>
+    <a href="#" title="Register">Register</a>
 </div>
-<div style="text-align: center">
-    <span>Register</span>
-</div>
-    <p style="text-align: center">
-        Enter your email and password to register
-    </p>
+    <p class="text">Enter your email and password to register</p>
 
 <form name="register" method="post" action="">
-    <div style="text-align: center">
-        <input type="text" name="Username" placeholder="Username">
+    <div>
+        <input type="text" name="username" placeholder="Username" id="user_name" required>
     </div>
-    <div style="text-align: center">
-        <input type="email" name="email" placeholder="Enter your email address">
+    <div>
+        <input type="email" name="email" placeholder="Enter your email address" id="user_email" required>
     </div>
-    <div style="text-align: center">
-        <input type="password" name="password" placeholder="Password">
+    <div>
+        <input type="password" name="password" placeholder="Password" id="user_password" required>
     </div>
-    <div style="text-align: center">
-        <input type="password" name="password" placeholder="Confirm Password">
+    <div>
+        <input type="password" name="password_confirm" placeholder="Confirm Password" id="user_password_confirm" required>
     </div>
-     <button type="submit"> Register </button>
-        <p style="text-align: center">
+     <button class="button" type="submit"> Register </button>
+        <p class="text">
             Or register with
         </p>
-    <div style="text-align: center">
+    <div class="social">
         <a href="#">
             <img src="images/google%201.svg" alt="">
         </a>
@@ -46,7 +46,7 @@
             Continue with Google
         </a>
     </div>
-    <div style="text-align: center">
+    <div class="social">
        <a href="#">
            <img src="images/Vector.svg" alt="">
        </a>
