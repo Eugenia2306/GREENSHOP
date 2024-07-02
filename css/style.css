@@ -32,7 +32,8 @@ text-align: center;
 }
 input{
     border: solid 1px black;
-    padding: 40px 300px;
+    padding: 10px 20px;
+    width: 300px;
 }
 .input{
     text-align: center;
