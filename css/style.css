@@ -38,6 +38,11 @@ input{
     text-align: center;
 }
 
+
+.test{
+    dominant-baseline: central;
+}
+
 .text{
     font-weight: 400;
     font-size: 13px;
